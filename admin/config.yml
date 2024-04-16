@@ -1,23 +1,5 @@
 backend:
   name: git-gateway
   branch: main
-  repo: "w-bastien/w-bastien.github.io"
-  api_root: "https://api.github.com"
-  site_domain: "github.io"
-  base_url: "https://api.netlify.com"
-  auth_endpoint: "auth"
-  cms_label_prefix: "decap-cms/"
-
-commit_messages:
-  create: Create {{collection}} “{{slug}}”
-  update: Update {{collection}} “{{slug}}”
-  delete: Delete {{collection}} “{{slug}}”
-  uploadMedia: Upload “{{path}}”
-  deleteMedia: Delete “{{path}}”
-  openAuthoring: '{{message}}'
-
-media_folder: "assets/img/uploads"
-public_folder: "assets/img/uploads"
-
-site_url: https://w-bastien.github.io
-
+media_folder: "images/uploads"
+public_folder: "/images/uploads"  
