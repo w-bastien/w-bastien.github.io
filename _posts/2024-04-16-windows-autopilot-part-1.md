@@ -1,5 +1,5 @@
 ---
-title: Windows Autopilot - Part 1
+title: Windows Autopilot - Part 1 - Setup
 date: 2024-04-16T16:18:00.000Z
 categories: "[Intune, Autopilot]"
 tags: "[configuration]"
@@ -10,6 +10,7 @@ toc: true
 comments: true
 ---
 1. Requirements
-2. Create a deployment profile
-3. Create an Enrollment Status Page profile
-4. Testing
+2. Create dynamic group
+3. Create a deployment profile
+4. Create an Enrollment Status Page profile
+5. Testing
