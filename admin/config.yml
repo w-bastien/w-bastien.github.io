@@ -1,0 +1,22 @@
+backend:
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+
+  media_folder: "assets/img/uploads"
+  public_folder: "assets/img/uploads"
+
+  site_url: https://your-site.com
+  logo_url: https://your-site.com/images/logo.svg
+
+  repo: "w-bastien/w-bastien.github.io"
+  branch: "main"
+  api_root: "https://api.github.com"
+  site_domain: "github.io"
+  base_url: "https://api.netlify.com"
+  auth_endpoint: "auth"
+  cms_label_prefix: "decap-cms/"
