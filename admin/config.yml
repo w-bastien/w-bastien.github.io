@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main
   repo: w-bastien/w-bastien.github.io
 media_folder: "assets/img/uploads"
