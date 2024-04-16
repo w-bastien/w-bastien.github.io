@@ -2,6 +2,7 @@ backend:
   name: github
   branch: main
   repo: w-bastien/w-bastien.github.io
+  site_id: c16968bd-1309-47e7-9e60-382905d6b24c
 media_folder: "assets/img/uploads"
 
 collections:
