@@ -14,3 +14,9 @@ comments: true
 3. Create a deployment profile
 4. Create an Enrollment Status Page profile
 5. Testing
+
+<https://learn.microsoft.com/en-us/autopilot/software-requirements>
+
+<https://learn.microsoft.com/en-us/autopilot/networking-requirements>
+
+[](https://learn.microsoft.com/en-us/autopilot/networking-requirements)<https://learn.microsoft.com/en-us/autopilot/licensing-requirements>
