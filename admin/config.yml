@@ -19,4 +19,4 @@ collections:
       - { label: "Table of content", name: "toc", widget: "boolean", default: true }
       - { label: "Comments", name: "comments", widget: "boolean", default: true }
       - { label: "Math plugin", name: "math", widget: "boolean", default: false }
-      - { label: "Mermaid plugin", name: "math", widget: "boolean", default: false }
+      - { label: "Mermaid plugin", name: "mermaid", widget: "boolean", default: false }
