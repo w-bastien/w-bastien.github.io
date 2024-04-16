@@ -20,3 +20,6 @@ collections:
       - { label: "Comments", name: "comments", widget: "boolean", default: true }
       - { label: "Math plugin", name: "math", widget: "boolean", default: false }
       - { label: "Mermaid plugin", name: "mermaid", widget: "boolean", default: false }
+      - { label: "Pin article", name: "pin", widget: "boolean", default: false }
+      - { label: "Categories", name: "categories", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "string" }
