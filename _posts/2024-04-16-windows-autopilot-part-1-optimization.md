@@ -1,5 +1,5 @@
 ---
-title: Windows Autopilot - Part 1 - Optimization
+title: Windows Autopilot - Part 2 - Optimization
 date: 2024-04-16T16:22:00.000Z
 categories: "[Microsoft 365,Intune, Autopilot]"
 tags: "[technical]"
