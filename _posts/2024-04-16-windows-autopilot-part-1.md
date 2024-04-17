@@ -17,7 +17,7 @@ comments: true
 
    [Entra](entra.microsoft.com) > Settings > Mobility > Microsoft Intune
 
-
+   Then select either 'Some' and assign a user group to allow the enrollment or to 'all' to allow everyone in you tenant
 3. Create dynamic group
 
    `(device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))`
