@@ -3,6 +3,7 @@ title: Windows Autopilot - Part 1 - Setup
 date: 2024-04-16T16:18:00.000Z
 categories: "[Intune, Autopilot]"
 tags: "[configuration]"
+image: /assets/img/uploads/microsoft_intune-logo_brandlogos.net_6p2c7.png
 pin: false
 math: false
 mermaid: false
@@ -10,13 +11,33 @@ toc: true
 comments: true
 ---
 1. Requirements
+
+   <https://learn.microsoft.com/en-us/autopilot/software-requirements>
+
+   <https://learn.microsoft.com/en-us/autopilot/networking-requirements>
+
+   <https://learn.microsoft.com/en-us/autopilot/licensing-requirements>
+
+   <https://learn.microsoft.com/en-us/autopilot/configuration-requirements>
+
+
 2. Create dynamic group
+
+
 3. Create a deployment profile
 4. Create an Enrollment Status Page profile
 5. Testing
 
-<https://learn.microsoft.com/en-us/autopilot/software-requirements>
+[](https://learn.microsoft.com/en-us/autopilot/software-requirements)
 
-<https://learn.microsoft.com/en-us/autopilot/networking-requirements>
+[](https://learn.microsoft.com/en-us/autopilot/configuration-requirements)
 
-[](https://learn.microsoft.com/en-us/autopilot/networking-requirements)<https://learn.microsoft.com/en-us/autopilot/licensing-requirements>
+[](https://learn.microsoft.com/en-us/autopilot/configuration-requirements)
+
+[](https://learn.microsoft.com/en-us/autopilot/configuration-requirements)
+
+
+
+
+
+[](https://learn.microsoft.com/en-us/autopilot/configuration-requirements)
