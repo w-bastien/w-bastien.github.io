@@ -23,7 +23,9 @@ comments: true
 
 2. Create dynamic group
 
+   `(device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))`
 
+   `(device.devicePhysicalIds -any (_ -eq "[OrderID]:Luxembourg"))`
 3. Create a deployment profile
 4. Create an Enrollment Status Page profile
 5. Testing
