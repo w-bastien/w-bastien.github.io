@@ -17,15 +17,20 @@ comments: true
 
    [Entra](entra.microsoft.com) > Settings > Mobility > Microsoft Intune
 
-   Then select either 'Some' and assign a user group to allow the enrollment or to 'all' to allow everyone in you tenant
-3. Create dynamic group
+   Then select either 'Some' or 'All'
+3. Configure device registration
+
+   [Entra](entra.microsoft.com) > Devices > Overview > Devices Settings
+
+   Then select either 'Selected' or 'All'
+4. Create dynamic group
 
    `(device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))`
 
    `(device.devicePhysicalIds -any (_ -eq "[OrderID]:Luxembourg"))`
-4. Create a deployment profile
-5. Create an Enrollment Status Page profile
-6. Testing
+5. Create a deployment profile
+6. Create an Enrollment Status Page profile
+7. Testing
 
 [](https://learn.microsoft.com/en-us/autopilot/software-requirements)
 
