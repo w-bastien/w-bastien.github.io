@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365 - My Entra Configuration
-date: 2024-04-22T06:15:00.000Z
+date: 2024-04-22T15:30:00.000Z
 categories: "[Microsoft 365, Entra]"
 tags: "[getting started]"
 image: /assets/img/uploads/microsoft365_logo.png
