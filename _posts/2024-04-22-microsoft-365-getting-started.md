@@ -26,4 +26,16 @@ When I do project I always keep a few thing in mind :
 2. Don't try to replicate how you work on prem to the cloud, this is a mistake I see a lot in Intune and in Entra
 
 * Are you sure that the way you work is the best way to do ? 
-* Are the tools compatible with the way you work ?
+* Are the tools compatible with the way you work ? 
+
+# Entra ID
+
+1. Define a naming convention for your group, I always tend to do something like that : \[Product]\*-\[SubProduct]-\[Environment]\*-\[Scope]-\[Name]. So the final result can be : Entra-Licences-PRD-Group-M365E5-Full or Intune-Exception-PRD-Allow-USB-Key. Also i'm using camel case.
+2. Create an emergency account with the global admin permission, this account should be excluded from all conditional access policy it should be strongly monitored and have a strong password
+3. Create a group that will be excluded from all conditional access policy (Entra-CA-Exclude-From-All)
+4. At least enable the following conditional access policy template, remember to edit them to remove the exclusion of your account and add the emergency account and group to the exclusion :
+
+   * Require multifactor authentication for admins
+   * Require multifactor authentication for Azure management
+   * Require multifactor authentication
+5. Disable User consent for applications
