@@ -45,6 +45,4 @@ Also i'm using camel case.
    * Require multifactor authentication
 4. Disable User consent for applications
 
-
-
 I know that this article is not complete for now, IMO this is the bare minimum you should do when you start
