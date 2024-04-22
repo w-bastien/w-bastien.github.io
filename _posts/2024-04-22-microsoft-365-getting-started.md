@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 - Getting Started - Entra
+title: Microsoft 365 - My Entra Configuration
 date: 2024-04-22T06:15:00.000Z
 categories: "[Microsoft 365, Entra]"
 tags: "[getting started]"
@@ -28,14 +28,23 @@ When I do project I always keep a few thing in mind :
 * Are you sure that the way you work is the best way to do ? 
 * Are the tools compatible with the way you work ? 
 
-# Entra ID
+# Governance
 
-1. Define a naming convention for your group, I always tend to do something like that : \[Product]\*-\[SubProduct]-\[Environment]\*-\[Scope]-\[Name]. So the final result can be : Entra-Licences-PRD-Group-M365E5-Full or Intune-Exception-PRD-Allow-USB-Key. Also i'm using camel case.
-2. Create an emergency account with the global admin permission, this account should be excluded from all conditional access policy it should be strongly monitored and have a strong password
-3. Create a group that will be excluded from all conditional access policy (Entra-CA-Exclude-From-All)
-4. At least enable the following conditional access policy template, remember to edit them to remove the exclusion of your account and add the emergency account and group to the exclusion :
+Define a naming convention for your group, I always tend to do something like that : \[Product]\*-\[SubProduct]-\[Environment]\*-\[Scope]-\[Name]. So the final result can be : Entra-Licences-PRD-Group-M365E5-Full or Intune-Exception-PRD-Allow-USB-Key. 
+
+Also i'm using camel case.
+
+# Risk and Security
+
+1. Create an emergency account with the global admin permission, this account should be excluded from all conditional access policy it should be strongly monitored and have a strong password
+2. Create a group that will be excluded from all conditional access policy (Entra-CA-Exclude-From-All)
+3. At least enable the following conditional access policy template, remember to edit them to remove the exclusion of your account and add the emergency account and group to the exclusion :
 
    * Require multifactor authentication for admins
    * Require multifactor authentication for Azure management
    * Require multifactor authentication
-5. Disable User consent for applications
+4. Disable User consent for applications
+
+
+
+I know that this article is not complete for now, IMO this is the bare minimum you should do when you start
