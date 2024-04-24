@@ -7,7 +7,7 @@ media_folder: "assets/img/uploads"
 publish_mode: editorial_workflow
 site_url: https://w-bastien.github.io
 logo_url: https://w-bastien.github.io/assets/img/branding/avatar.png
-show_preview_links: true
+
 collections:
   - name: "Post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
@@ -15,6 +15,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: /{{slug}}
+    show_preview_links: true
     fields: # The fields for each document, usually in front matter
       - { label: "Title", name: "title", widget: "string", required: true}
       - { label: "Publish Date", name: "date", widget: "datetime", required: true }
