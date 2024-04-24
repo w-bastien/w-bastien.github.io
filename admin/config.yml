@@ -5,7 +5,8 @@ backend:
   site_id: c16968bd-1309-47e7-9e60-382905d6b24c
 media_folder: "assets/img/uploads"
 publish_mode: editorial_workflow
-
+site_url: https://w-bastien.github.io
+logo_url: https://w-bastien.github.io/assets/img/branding/avatar.png
 collections:
   - name: "Post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
