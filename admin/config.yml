@@ -7,6 +7,7 @@ media_folder: "assets/img/uploads"
 publish_mode: editorial_workflow
 site_url: https://w-bastien.github.io
 logo_url: https://w-bastien.github.io/assets/img/branding/avatar.png
+show_preview_links: true
 collections:
   - name: "Post" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
