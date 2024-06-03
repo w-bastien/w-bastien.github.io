@@ -36,12 +36,4 @@ collections:
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Icon", name: "icon", widget: "string", required: true }
       - { label: "Order", name: "order", widget: "number", value_type: "int", required: true }
-      - { label: "Body", name: "body", widget: "markdown", required: true }
-    #files:
-      #- label: "About"
-        #name: "about"
-        #file: "_tabs/about.md"
-        #fields:
-        #  - { label: "Icon", name: "icon", widget: "string", required: true }
-        #  - { label: "Order", name: "order", widget: "number", value_type: "int", required: true }
-        #  - { label: "Body", name: "body", widget: "markdown", required: true }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
