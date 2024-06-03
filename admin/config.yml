@@ -27,8 +27,8 @@ collections:
       - { label: "Table of content", name: "toc", widget: "boolean", default: true }
       - { label: "Comments", name: "comments", widget: "boolean", default: true }
       
-  - label: "Pages"
-    name: "pages"
+  - label: "Page"
+    name: "page"
     folder: "_tabs"
     create: true
     slug: "{{slug}}"
