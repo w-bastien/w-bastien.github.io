@@ -32,11 +32,6 @@ collections:
     folder: "_tabs"
     create: true
     slug: "{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", required: true }
-      - { label: "Icon", name: "icon", widget: "string", required: true }
-      - { label: "Order", name: "order", widget: "number", value_type: "int", required: true }
-      - { label: "Body", name: "body", widget: "markdown" }
     files:
       - label: "About"
         name: "about"
