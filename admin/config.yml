@@ -29,7 +29,7 @@ collections:
       
   - label: "Pages"
     name: "pages"
-    folder: "_posts"
+    folder: "_tabs"
     create: true
     slug: "{{slug}}"
     fields:
