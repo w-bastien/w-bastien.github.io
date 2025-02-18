@@ -15,4 +15,6 @@ INTRO
 
 ## Mobility settings
 
-Device group
+## Device group
+
+## Autopilot Device Preparation Policy
