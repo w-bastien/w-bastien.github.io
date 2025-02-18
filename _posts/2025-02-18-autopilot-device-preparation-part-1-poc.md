@@ -14,3 +14,5 @@ INTRO
 ## Entra join settings
 
 ## Mobility settings
+
+Device group
