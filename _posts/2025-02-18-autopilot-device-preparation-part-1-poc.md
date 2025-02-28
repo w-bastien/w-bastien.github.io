@@ -52,6 +52,18 @@ This group need to have service principal **Intune Provisioning Client** as own
 
 ![](/assets/img/uploads/autopilotgroup.png)
 
+If the service principal does not exist you can create it using powershell :
+
+`Install-Module Microsoft.Graph.Authentication`
+
+`Install-Module Microsoft.Graph.Applications`
+
+`Connect-MgGraph -Scopes "Application.ReadWrite.All"`
+
+`New-MgServicePrincipal -AppID f1346770-5b25-470b-88bd-d5744ab7952c`
+
+
+
 
 
 
