@@ -42,6 +42,20 @@ Intune > Enrollment > Automatic Enrollment select either All or Selected
 
 ## Device group
 
+
+Windows Autopilot device preparation uses a device group as part of the Windows Autopilot device preparation policy. The device group specified in the Windows Autopilot device preparation policy is the device group where devices are added automatically during the Windows Autopilot device preparation deployment. The device group specified in the Windows Autopilot device preparation policy needs to be an assigned security group.
+
+Devices are automatically added to this device group during the Windows Autopilot device preparation deployment
+
+This group need to have service principal **Intune Provisioning Client** as owner
+
+
+![](/assets/img/uploads/autopilotgroup.png)
+
+
+
+
+
 ## Autopilot Device Preparation Policy
 
 ## Testing
