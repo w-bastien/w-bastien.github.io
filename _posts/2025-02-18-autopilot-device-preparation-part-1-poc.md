@@ -18,23 +18,18 @@ Users need to be allowed to join devices to Microsoft Entra ID.
 Entra ID > Devices > Device Setting > under Users may join devices to Microsoft Entra, select either All or Selected:
 
 1. If All is selected, all users can join their devices to Microsoft Entra ID.
-
 2. If Some is selected, you need to select who will be able to entra join.
 
 ![](/assets/img/uploads/entrajoin.png)
-
-
 
 ## Mobility settings
 
 In order for Windows Autopilot device preparation to work, devices need to be able to enroll in Intune automatically.
 
 Intune > Enrollment > Automatic Enrollment select either All or Selected
+
 1. If Some is selected, only users in the groups specified in the link under Groups can automatically enroll their devices in Intune.
-
 2. If All is selected, all users can automatically enroll their devices in Intune.
-
-
 
 ![](/assets/img/uploads/autoenrollment-1.png)
 
@@ -42,13 +37,11 @@ Intune > Enrollment > Automatic Enrollment select either All or Selected
 
 ## Device group
 
-
 Windows Autopilot device preparation uses a device group as part of the Windows Autopilot device preparation policy. The device group specified in the Windows Autopilot device preparation policy is the device group where devices are added automatically during the Windows Autopilot device preparation deployment. The device group specified in the Windows Autopilot device preparation policy needs to be an assigned security group.
 
 Devices are automatically added to this device group during the Windows Autopilot device preparation deployment
 
 This group need to have service principal **Intune Provisioning Client** as owner
-
 
 ![](/assets/img/uploads/autopilotgroup.png)
 
@@ -62,12 +55,14 @@ If the service principal does not exist you can create it using powershell :
 
 `New-MgServicePrincipal -AppID f1346770-5b25-470b-88bd-d5744ab7952c`
 
-
-
-
-
-
-
 ## Autopilot Device Preparation Policy
+
+Now create the device preparation policy
+
+Intune > Devices > Enrollment > Device preparation policies > Create
+
+![](/assets/img/uploads/autopilotpolicy.png)
+
+![](/assets/img/uploads/autopilotpolicy2.png)
 
 ## Testing
