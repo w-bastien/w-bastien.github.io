@@ -9,7 +9,12 @@ mermaid: false
 toc: true
 comments: true
 ---
-INTRO
+
+This step by step tutorial guides through using Intune to perform a Windows Autopilot device preparation user-driven scenario when the devices are Microsoft Entra joined.
+
+The purpose of this tutorial is a step by step guide for all the configuration steps required for a successful Windows Autopilot device preparation user-driven Microsoft Entra join deployment using Intune.
+
+
 
 ## Entra join settings
 
@@ -66,3 +71,17 @@ Intune > Devices > Enrollment > Device preparation policies > Create
 ![](/assets/img/uploads/autopilotpolicy2.png)
 
 ## Testing
+
+Now you can try to enroll a device by selecting **Set up for work or school account**
+
+![](/assets/img/uploads/work-or-school.png)
+
+When finished you will have an Entra join and Intune manged device
+
+![](/assets/img/uploads/enrolled.png)
+
+![](/assets/img/uploads/intuneenrolleddevice.png)
+
+# Conclusion
+
+Now user can enroll device, in the next article we will work on how to improve the security because in the current state a user can enroll any device from anywhere without MFA
