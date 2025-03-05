@@ -31,8 +31,6 @@ In order for Windows Autopilot device preparation to work, devices need to be ab
 1. If All is selected, all users can automatically enroll their devices in Intune.
 2. If Some is selected, only users in the groups specified in the link under Groups can automatically enroll their devices in Intune.
 
-
-
 ## Device group
 
 Windows Autopilot device preparation uses a device group as part of the Windows Autopilot device preparation policy. The device group specified in the Windows Autopilot device preparation policy is the device group where devices are added automatically during the Windows Autopilot device preparation deployment. The device group specified in the Windows Autopilot device preparation policy needs to be an assigned security group.
@@ -57,7 +55,7 @@ If the service principal does not exist you can create it using powershell :
 
 Now create the device preparation policy
 
-Intune > Devices > Enrollment > Device preparation policies > Create
+**Intune > Devices > Enrollment > Device preparation policies > Create**
 
 ![](/assets/img/uploads/autopilotpolicy.png)
 
@@ -65,7 +63,7 @@ Intune > Devices > Enrollment > Device preparation policies > Create
 
 ## Testing
 
-Now you can try to enroll a device by selecting **Set up for work or school account**
+Now you can try to enroll a device by selecting **Set up for work or school account** during the OOBE
 
 ![](/assets/img/uploads/work-or-school.png)
 
