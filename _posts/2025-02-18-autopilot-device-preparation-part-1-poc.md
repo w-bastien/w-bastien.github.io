@@ -9,36 +9,27 @@ mermaid: false
 toc: true
 comments: true
 ---
-
 This step by step tutorial guides through using Intune to perform a Windows Autopilot device preparation user-driven scenario when the devices are Microsoft Entra joined.
 
 The purpose of this tutorial is a step by step guide for all the configuration steps required for a successful Windows Autopilot device preparation user-driven Microsoft Entra join deployment using Intune.
-
-
 
 ## Entra join settings
 
 Users need to be allowed to join devices to Microsoft Entra ID. 
 
-Entra ID > Devices > Device Setting > under Users may join devices to Microsoft Entra, select either All or Selected:
+**Entra ID > Devices > Device Setting > under Users may join devices to Microsoft Entra, select either All or Selected**
 
 1. If All is selected, all users can join their devices to Microsoft Entra ID.
 2. If Some is selected, you need to select who will be able to entra join.
-
-![](/assets/img/uploads/entrajoin.png)
 
 ## Mobility settings
 
 In order for Windows Autopilot device preparation to work, devices need to be able to enroll in Intune automatically.
 
-Intune > Enrollment > Automatic Enrollment select either All or Selected
+**Intune > Enrollment > Automatic Enrollment > under MDM user scope, select either All or Selected**
 
-1. If Some is selected, only users in the groups specified in the link under Groups can automatically enroll their devices in Intune.
-2. If All is selected, all users can automatically enroll their devices in Intune.
-
-![](/assets/img/uploads/autoenrollment-1.png)
-
-![](/assets/img/uploads/autoenrollment-2.png.png)
+1. If All is selected, all users can automatically enroll their devices in Intune.
+2. If Some is selected, only users in the groups specified in the link under Groups can automatically enroll their devices in Intune.
 
 ## Device group
 
@@ -64,7 +55,7 @@ If the service principal does not exist you can create it using powershell :
 
 Now create the device preparation policy
 
-Intune > Devices > Enrollment > Device preparation policies > Create
+**Intune > Devices > Enrollment > Device preparation policies > Create**
 
 ![](/assets/img/uploads/autopilotpolicy.png)
 
@@ -72,7 +63,7 @@ Intune > Devices > Enrollment > Device preparation policies > Create
 
 ## Testing
 
-Now you can try to enroll a device by selecting **Set up for work or school account**
+Now you can try to enroll a device by selecting **Set up for work or school account** during the OOBE
 
 ![](/assets/img/uploads/work-or-school.png)
 
